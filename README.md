@@ -16,57 +16,6 @@ Frontend: https://talentkonnect-staging-seven.vercel.app/
 - Toast notifications with react-toastify
 
 
-🧩 Project Structure
-project/
-├── public/
-│   └── logo.png                     
-│
-├── src/
-│   ├── components/
-│   │   ├── ui/         
-│   │   │   ├── Button.jsx
-│   │   │   ├── Logo.jsx
-│   │   │   ├── BalanceHeader.jsx
-│   │   │   ├── LedgerTable.jsx
-│   │   │   ├── OnboardingForm.jsx
-│   │   │   ├── AdminAnalyticsDashboard.jsx
-│   │   │   └── AdminClusteringDashboard.jsx
-│   │   │
-│   │   ├── modules/
-│   │   │   ├── Clustering.jsx
-│   │   │   ├── CompleteGig.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   ├── Feed.jsx
-│   │   │   ├── Notifications.jsx
-│   │   │   ├── Onboarding.jsx
-│   │   │   ├── PostGig.jsx
-│   │   │   ├── Referral.jsx
-│   │   │   └── Wallet.jsx
-│   │   │
-│   │   └── lib/ 
-│   │       ├── api.js
-│   │       └── utils.js
-│
-│   ├── pages/
-│   │   ├── AdminDashboard.jsx
-│   │   ├── Home.jsx
-│   │   └── NotFound.jsx
-│
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│
-├── index.html
-├── tailwind.config.js
-├── vite.config.js
-├── package.json
-├── package-lock.json
-├── .eslintrc.js
-├── .gitignore
-└── README.md
-
-
-
 ⚙️ Getting Started
 1. Clone the repo
     git clone https://github.com/your-username/talentkonnect-staging.git
