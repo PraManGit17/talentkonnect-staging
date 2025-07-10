@@ -14,6 +14,8 @@ const Home = () => {
             <Link to="/dashboard" className="text-gray-800 hover:text-orange-500 transition-colors">Dashboard</Link>
             <Link to="#" className="text-gray-800 hover:text-orange-500 transition-colors">About</Link>
             <Link to="/wallet" className="text-gray-800 hover:text-orange-500 transition-colors">Wallet</Link>
+            <Link to="/post-gig" className="text-gray-800 hover:text-orange-500 transition-colors">Post Gig</Link>
+            <Link to="/complete-gig" className="text-gray-800 hover:text-orange-500 transition-colors">Complete Gig</Link>
           </nav>
           <Button className="bg-orange-500 hover:bg-orange-600 text-white">
             <Link to="/onboarding">Get Started</Link>
