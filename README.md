@@ -18,12 +18,12 @@ Frontend: https://talentkonnect-staging-seven.vercel.app/
 
 🧩 Project Structure
 project/
-├── public/                          # Static assets (images, icons, etc.)
-│   └── logo.png                     # Example static file
+├── public/
+│   └── logo.png                     
 │
 ├── src/
 │   ├── components/
-│   │   ├── ui/                      # Reusable UI components
+│   │   ├── ui/         
 │   │   │   ├── Button.jsx
 │   │   │   ├── Logo.jsx
 │   │   │   ├── BalanceHeader.jsx
@@ -32,7 +32,7 @@ project/
 │   │   │   ├── AdminAnalyticsDashboard.jsx
 │   │   │   └── AdminClusteringDashboard.jsx
 │   │   │
-│   │   ├── modules/                # Feature-specific components
+│   │   ├── modules/
 │   │   │   ├── Clustering.jsx
 │   │   │   ├── CompleteGig.jsx
 │   │   │   ├── Dashboard.jsx
@@ -43,25 +43,25 @@ project/
 │   │   │   ├── Referral.jsx
 │   │   │   └── Wallet.jsx
 │   │   │
-│   │   └── lib/                    # API utilities and helper functions
+│   │   └── lib/ 
 │   │       ├── api.js
 │   │       └── utils.js
 │
-│   ├── pages/                      # Pages/routes
+│   ├── pages/
 │   │   ├── AdminDashboard.jsx
 │   │   ├── Home.jsx
 │   │   └── NotFound.jsx
 │
-│   ├── App.jsx                     # App layout and routing setup
-│   ├── main.jsx                    # Vite entry point
-│   ├── index.css                   # Tailwind CSS and global styles
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
 │
-├── index.html                      # Root HTML file (Vite entry)
-├── tailwind.config.js              # Tailwind config
-├── vite.config.js                  # Vite config
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
 ├── package.json
 ├── package-lock.json
-├── .eslintrc.js                    # Linter config
+├── .eslintrc.js
 ├── .gitignore
 └── README.md
 
