@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Copy, Check, Users, Award, Share2, Gift, TrendingUp } from 'lucide-react';
+import { Logo } from '../components/logo';
 
 const Referral = () => {
   const [referralLink, setReferralLink] = useState('');
@@ -86,10 +87,9 @@ const Referral = () => {
       <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-10 px-80 py-4 rounded-md mb-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-lg bg-[#1D3557] text-white flex items-center justify-center font-bold">TK</div>
             <div>
-              <h1 className="text-xl font-bold text-[#1D3557]">talent<span className="text-[#E76F51]">konnect</span></h1>
-              <p className="text-sm text-gray-500">Referral Program</p>
+              <Logo size="default" />
+              <p className="text-sm text-gray-500 px-12">Referral Program</p>
             </div>
           </div>
           <div className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-[#E76F51] text-white font-semibold">

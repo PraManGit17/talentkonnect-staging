@@ -2,6 +2,8 @@ import React from 'react';
 import { Logo } from '../components/logo';
 import { Button } from '../components/ui/button';
 import { Link } from 'react-router-dom';
+import { Bell } from 'lucide-react';
+
 
 const Home = () => {
   return (
@@ -17,10 +19,15 @@ const Home = () => {
             <Link to="/post-gig" className="text-gray-800 hover:text-orange-500 transition-colors">Post Gig</Link>
             <Link to="/complete-gig" className="text-gray-800 hover:text-orange-500 transition-colors">Complete Gig</Link>
             <Link to="/feed" className="text-gray-800 hover:text-orange-500 transition-colors">Feed</Link>
+            <Link to="/referral" className="text-gray-800 hover:text-orange-500 transition-colors">Referral</Link>
           </nav>
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">
-            <Link to="/onboarding">Get Started</Link>
-          </Button>
+
+          <div className='flex items-center gap-5'>
+            <Link to="/notifications"><Bell className="w-6 h-6 text-blue-950"/></Link>
+            <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+              <Link to="/onboarding">Get Started</Link>
+            </Button>
+          </div>
         </div>
       </header>
 
