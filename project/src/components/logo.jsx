@@ -16,16 +16,16 @@ export function Logo({ size = 'default', variant = 'default' }) {
 
   const colorClasses = {
     default: {
-      talent: 'text-primary-blue',
-      konnect: 'text-accent-orange',
+      talent: 'text-blue-950',
+      konnect: 'text-orange-500',
     },
     light: {
-      talent: 'text-primary-blue',
-      konnect: 'text-accent-orange',
+      talent: 'text-blue-950',
+      konnect: 'text-orange-500',
     },
     dark: {
       talent: 'text-white',
-      konnect: 'text-accent-orange',
+      konnect: 'text-orange-500',
     },
   };
 

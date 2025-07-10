@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <header className="border-b bg-white shadow-sm">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+      <header className="bg-white shadow-sm">
+        <div className="container mx-auto px-12 py-4 flex justify-between items-center">
           <Logo size="default" />
           <nav className="hidden md:flex space-x-6 font-semibold">
             <Link to="/" className="text-gray-800 hover:text-orange-500 transition-colors">Home</Link>
@@ -22,9 +22,9 @@ const Home = () => {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="py-16 md:py-24 bg-green-50">
+        <section className="py-16 md:py-24 bg-green-100/30">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="mb-6 text-4xl md:text-5xl font-bold uppercase text-blue-900">SHARE YOUR SKILLS</h1>
+            <h1 className="mb-6 text-4xl md:text-6xl font-bold uppercase text-blue-950">SHARE YOUR SKILLS</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-700">
               Join TalentKonnect to share your expertise, earn credits, and
               connect with talented individuals.
@@ -41,7 +41,7 @@ const Home = () => {
         {/* How It Works Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-center mb-12 text-3xl font-bold text-blue-900">How It Works</h2>
+            <h2 className="text-center mb-12 text-3xl font-bold text-blue-950">How It Works</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 { step: "1", title: "Share Your Tip", desc: "Share your expertise in cooking, studying, repairs, or other skills." },
