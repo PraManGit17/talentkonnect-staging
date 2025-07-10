@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
-import Onboarding from './modules/onboarding';
 import Wallet from './modules/Wallet';
 import PostGig from './modules/PostGig';
 import CompleteGig from './modules/CompleteGig';
@@ -10,6 +9,7 @@ import Referral from './modules/Referral';
 import AdminDashboard from './pages/AdminDashboard';
 import NotFound from './pages/NotFound';
 import Notifications from './modules/Notifications';
+import Onboarding from './modules/Onboarding';
 
 
 const App = () => {
